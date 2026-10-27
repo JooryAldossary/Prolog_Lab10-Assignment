@@ -20,5 +20,3 @@ login_attempt(Attempts) :-
         ;   write('Sorry, you exceeded the maximum number of attempts, try again later.'), nl
         )
     ).
-
-% Run with: ?- login.
